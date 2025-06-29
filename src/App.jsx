@@ -5,8 +5,8 @@ const App = () => {
   // Define box data for the interactive sections, updated for Rebornebike.com
   const boxData = [
     {
-      title: 'About Rebornebike',
-      content: 'With over a decade of experience, Rebornebike is the premier refurbishing center for e-mobility and consumer electronics returns in the United States. We serve over 300 U.S. retailers and annually refurbish 10,000+ e-bikes/scooters, 300,000+ electronic devices, and 5,000+ furniture/home goods.',
+      title: 'About ZiTeng Trading',
+      content: 'With over a decade of experience, ZiTeng Trading is the premier refurbishing center for e-mobility and consumer electronics returns in the United States. We serve over 300 U.S. retailers and annually refurbish 10,000+ e-bikes/scooters, 300,000+ electronic devices, and 5,000+ furniture/home goods.',
     },
     {
       title: 'Our 5-Step Process',
@@ -42,7 +42,7 @@ const App = () => {
       <nav className="bg-white shadow-sm py-4 px-4 md:px-8 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <a href="#" className="text-2xl font-extrabold text-gray-900 tracking-wide">
-            Rebornebike.com
+            ZiTeng Trading
           </a>
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-8">
@@ -133,7 +133,7 @@ const App = () => {
 
       {/* Why Choose Us Section - based on "Our Advantages" */}
       <section id="why-choose-us" className="bg-white rounded-xl shadow-lg p-8 mt-12 max-w-7xl mx-auto border border-gray-200 mb-12 px-4 md:px-8">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Why Choose Rebornebike?</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Why Choose ZiTeng Trading?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex items-start p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
             <span className="text-5xl text-green-600 mr-4">🚚</span>
@@ -210,7 +210,7 @@ const App = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
             <p className="italic text-lg text-gray-700 mb-4">
-              “Rebornebike helped us turn our U.S. returns into a profitable channel. Fast, professional, and reliable.”
+              “ZiTeng Trading helped us turn our U.S. returns into a profitable channel. Fast, professional, and reliable.”
             </p>
             <p className="font-semibold text-gray-800">– Shenzhen-based E-Bike Manufacturer</p>
           </div>
@@ -227,7 +227,7 @@ const App = () => {
       <footer id="contact" className="bg-gray-800 text-white py-12 mt-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left px-4 md:px-8">
           <div className="footer-section">
-            <h3 className="text-xl font-bold mb-4">Rebornebike.com</h3>
+            <h3 className="text-xl font-bold mb-4">ZiTeng Trading</h3>
             <p className="text-gray-400">
               Refurbishing Center – Los Angeles | Houston | Phoenix<br/>
               📍 30,000 sq.ft. LA facility | Daily Capacity: 100+ units
@@ -254,7 +254,7 @@ const App = () => {
           </div>
         </div>
         <div className="text-center text-gray-500 mt-8 text-sm px-4 md:px-8">
-          &copy; {new Date().getFullYear()} Rebornebike.com. All rights reserved.
+          &copy; {new Date().getFullYear()} ZiTeng Trading. All rights reserved.
         </div>
       </footer>
     </div>
