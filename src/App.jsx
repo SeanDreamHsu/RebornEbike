@@ -57,7 +57,7 @@ const App = () => {
 
       {/* Hero Section - Large banner with text overlay */}
       <section className="relative h-96 md:h-[500px] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('https://placehold.co/1200x600/333333/ffffff?text=U.S.+Refurbishing+Center')" }}>
+        style={{ backgroundImage: "url('/Suspension-Fork.webp')" }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative text-center p-4">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
