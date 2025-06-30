@@ -135,7 +135,7 @@ const App = () => {
       brandControl: 'Brand Control',
       brandControlDesc: 'Standardized refurb flow protects your brand reputation.',
       multilingualSupport: 'Multilingual Support',
-      multilingualSupportDesc: 'Mandarin-English bilingual support team.',
+      multilingualSupportDesc: 'Mandarin-English bilingual team.',
       // Who We Serve details
       weCollaborateWith: 'We collaborate with:',
       chineseManufacturers: 'Chinese manufacturers exporting to U.S. platforms (Amazon, Walmart, TikTok Shop)',
@@ -214,7 +214,7 @@ const App = () => {
             ZiTeng Trading
           </a>
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:flex-row md:space-x-8 items-center"> {/* Changed from hidden md:flex to flex flex-wrap for mobile visibility */}
             <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.home}</a>
             <a href="#what-we-do" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.ourServices}</a>
             <a href="#why-choose-us" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.whyChooseUs}</a>
