@@ -46,7 +46,7 @@ const App = () => {
       fullTestingQCDesc: '严格的测试与质量控制。',
       repackagingWarranty: '重新包装与保修',
       repackagingWarrantyDesc: '附翻新标签及90天保修。',
-      // Why Choose Us details
+      // 为何选择我们详情
       localUSOperations: '本地美国运营',
       localUSOperationsDesc: '无需将产品运回中国，节省时间和成本。',
       fastTurnaround: '快速周转',
@@ -59,7 +59,7 @@ const App = () => {
       brandControlDesc: '标准化翻新流程保护您的品牌声誉。',
       multilingualSupport: '多语言支持',
       multilingualSupportDesc: '中英文双语支持团队。',
-      // Who We Serve details
+      // 服务对象详情
       weCollaborateWith: '我们与以下客户合作：',
       chineseManufacturers: '出口至美国平台（亚马逊、沃尔玛、TikTok Shop）的中国制造商',
       brandsSeekingLiquidation: '寻求B2B清算解决方案的品牌',
@@ -213,14 +213,17 @@ const App = () => {
           <a href="#" className="text-2xl font-extrabold text-gray-900 tracking-wide">
             ZiTeng Trading
           </a>
-          {/* Navigation Links */}
-          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:flex-row md:space-x-8 items-center"> {/* Changed from hidden md:flex to flex flex-wrap for mobile visibility */}
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.home}</a>
-            <a href="#what-we-do" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.ourServices}</a>
-            <a href="#why-choose-us" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.whyChooseUs}</a>
-            <a href="#who-we-serve" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.whoWeServe}</a>
-            <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.contactUs}</a>
-            {/* Language toggle button */}
+          {/* Navigation Links and Language Toggle */}
+          {/* On mobile, hide nav links but keep language button visible. On desktop, show all. */}
+          <div className="flex items-center"> {/* New container for nav links and language button */}
+            <div className="hidden md:flex space-x-8 items-center"> {/* Nav links hidden on mobile, flex on desktop */}
+              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.home}</a>
+              <a href="#what-we-do" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.ourServices}</a>
+              <a href="#why-choose-us" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.whyChooseUs}</a>
+              <a href="#who-we-serve" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.whoWeServe}</a>
+              <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">{t.contactUs}</a>
+            </div>
+            {/* Language toggle button - always visible */}
             <button
               onClick={toggleLanguage}
               className="ml-4 px-3 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300 text-sm font-medium"
